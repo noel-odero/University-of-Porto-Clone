@@ -6,6 +6,7 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
     <style type="text/tailwindcss">
         .center {
           @apply flex items-center justify-center;
@@ -102,7 +103,25 @@
                 </div>
             </div>
         </header>
-        <main></main>
+        <main class="hero w-full h-[70vh] relative">
+            <div class="bg-[#A18A4D] absolute left-0 top-1/2 text-white size-10 center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                  </svg>
+            </div>
+            <div class="bg-gray-800 absolute left-32 w-1/3 gap-10 top-1/2 text-gray-300 flex flex-col justify-between  p-2 opacity-90">
+                <p class="text-2xl font-bold">Applications for International students 2024/2025 are open!</p>
+                <p>There are over 700 vacancies for 54 undergraduates and intergrated master's courseat U.Porto. Applications (1st phase) until February 7th!</p>
+                <button class= "bg-[#A18A4D] w-1/5 py-1 text-black font-bold"> See More </button>
+            </div>
+            <div class="bg-[#A18A4D] absolute right-0 top-1/2 text-white size-10 center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>
+
+            </div>
+
+        </main>
         <footer></footer>
     </div>
 
