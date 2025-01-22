@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -15,8 +15,8 @@
           @apply w-full max-w-6xl mx-auto;
         }
       </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="w-full">
 
         <header class="">
@@ -122,8 +122,102 @@
             </div>
 
         </main>
-        <footer></footer>
+
+        <div class="h-[130vh] w-full">
+          <div class="center container flex justify-between gap-8 flex-col" >
+
+            <div>
+              <p class="text-[#A18A4D] text-6xl xl:text-5xl font-light text-accent mt-24">Study</p>
+              <div class="flex gap-20 mt-8 xl:mt-12 border-b-[0.1px] text-gray-800 border-gray-300 pb-10 justify-between" >
+                <div class="w-1/3">
+                  <h2 class="font-bold text-2xl">Your future is here!</h2>
+                </div>
+                <div class="w-2/3">
+                  <p class="col-span-2 text-lg font-light mt-6 xl:mt-0">
+                    Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the
+                    U.Porto offer unique conditions to those who want to build an academic path of excellence and
+                    properly valued by the labour market.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-8 flex-col w-full justify-between">
+              <div>
+                <p class="font-bold pt-15 text-2xl mt-12">Which course are you looking for?</p>
+              </div>
+              <div class="flex gap-8">
+
+                <div class=" flex flex-col gap-4 w-2/3">
+                  <!-- <label for="dropdown">All</label> -->
+                  <select id="dropdown" name="options" class="border-2 border-[#A18A4D] p-3">
+                    <option value="option1" class="text-bold text-4XL">All</option>
+                    <option value="option1">Bachelor's and Intergrated Master's Degrees</option>
+                    <option value="option2">Master's Degrees</option>
+                    <option value="option3">Doctorates</option>
+                  </select>
+                  <input placeholder="Please enter course keywords..." class="border-2 border-[#A18A4D] p-3 text-gray-500">
+                  </input>
+
+                  <button class="border-2 border-[#A18A4D] p-3 bg-[#A18A4D] text-white font-bold text-2xl hover:bg-white hover:text-[#A18A4D]">Search</button>
+
+                </div>
+                <div class="w-1/3">
+                  <p class="text-2xl font-bold">Courses from A to Z:</p>
+                  <div class="flex flex-col">
+                    <a href="#" class="underline text-2xl hover:text-[#A18A4D] font-light">Bachelor's and Intergrated Master's Degrees</a>
+                    <a href="#" class="underline  text-2xl hover:text-[#A18A4D] font-light">Master's Degrees</a>
+                    <a href="#" class="underline text-2xl hover:text-[#A18A4D] font-light">Doctorates</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-[130vh] w-full bg-gray-200">
+          <div class="center container flex justify-between gap-8 flex-col" >
+            <div class="flex gap-8 w-full justify-between bg-red items-baseline mt-24">
+              <p class ='text-6xl text-[#A18A4D] font-light'>News</p>
+              <div class="flex gap-4">
+                <p class="text-[#A18A4D] font-bold">All news</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 border-2 border-[#A18A4D] rounded-full p-1 bg-[#A18A4D] text-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+              </div>
+
+            </div>
+            <div class="flex gap-8">
+              <div class="flex flex-col gap-8 bg-gray-100 p-4 ">
+                <p class="text-[#A18A4D]">Ciencia e Inovacao | Merito</p>
+                <p class="text-2xl font-bold text-gray-600 mb-16">U.Porto domina bolsas de investigacao da Liga Portuguesa Contra o Cancro</p>
+                <p>20 January 2025</p>
+                <img src="./img1.jpg" alt="">
+              </div>
+              <div class="flex flex-col gap-8 bg-gray-100 p-4">
+                <p class="text-[#A18A4D]">Ciencia e Inovacao | Merito</p>
+                <p class="text-2xl font-bold text-gray-600 mb-16">U.Porto domina bolsas de investigacao da Liga Portuguesa Contra o Cancro</p>
+                <p>20 January 2025</p>
+                <img src="./img2.jpg" alt="">
+              </div>
+              <div class="flex flex-col gap-8 bg-gray-100 p-4">
+                <p class="text-[#A18A4D]"  class="text-[#A18A4D]">Ciencia e Inovacao | Merito</p>
+                <p class="text-2xl font-bold text-gray-600 mb-16">U.Porto domina bolsas de investigacao da Liga Portuguesa Contra o Cancro</p>
+                <p>20 January 2025</p>
+                <img src="./img3.jpg" alt="">
+              </div>
+            </div>
+            <div class="flex gap-2 justify-start items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10 rounded-half text-white p-1 bg-gray-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10 bg-[#A18A4D] text-white p-1 rounded-half">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+            </div>
+
+          </div>
+        </div>
     </div>
 
-</body>
+  </body>
 </html>
