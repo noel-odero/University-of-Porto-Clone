@@ -20,7 +20,7 @@
     <div class="w-full">
 
         <header class="">
-            <div class="w-full bg-gray-800">
+            <div class="w-full bg-gray-800 hidden md:block">
                 <div class="container">
                     <nav class="flex justify-between items-center p-4 bg-gray-800 text-white">
                         <div class="flex justify-between gap-4">
@@ -78,13 +78,13 @@
             </div>
             <div class="w-full bg-[#D5D5D5]">
                 <div class="container">
-                    <div class="flex justify-between items-center p-4  text-black">
+                    <div class="flex justify-between items-center p-8 sm:p-4  text-black">
                         <div>
-                            <p  class="font-bold text-2xl uppercase">
+                            <p  class="font-normal sm:font-bold text-lg sm:text-2xl uppercase ">
                                 Universidade de porto
                             </p>
                         </div>
-                        <div class="flex justify-between uppercase gap-4 font-bold text-lg">
+                        <div class="justify-between hidden sm:flex uppercase gap-4 font-bold text-lg">
                             <p>STUDY</p>
                             <p>Research</p>
                             <p>Innovate</p>
@@ -104,36 +104,36 @@
             </div>
         </header>
         <main class="hero w-full h-[70vh] relative">
-            <div class="bg-[#A18A4D] absolute left-0 top-1/2 text-white size-10 center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <div class="bg-[#A18A4D] absolute left-0 sm:top-1/2 text-white size-10 center top-1/4 size-14">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sm:size-6 size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-                  </svg>
+                </svg>
             </div>
-            <div class="bg-gray-800 absolute left-32 w-1/3 gap-10 top-1/2 text-gray-300 flex flex-col justify-between  p-2 opacity-90">
+            <div class="bg-gray-800 absolute left-0  sm:left-32 sm:w-1/3 gap-10 bottom-0 sm:top-1/2 w-full px-3 pt-3 pb-8 text-gray-300 flex flex-col justify-between  sm:p-2 opacity-90">
                 <p class="text-2xl font-bold">Applications for International students 2024/2025 are open!</p>
-                <p>There are over 700 vacancies for 54 undergraduates and intergrated master's courseat U.Porto. Applications (1st phase) until February 7th!</p>
+                <p class="hidden sm:block">There are over 700 vacancies for 54 undergraduates and intergrated master's courseat U.Porto. Applications (1st phase) until February 7th!</p>
                 <button class= "bg-[#A18A4D] w-1/5 py-1 text-black font-bold"> See More </button>
             </div>
-            <div class="bg-[#A18A4D] absolute right-0 top-1/2 text-white size-10 center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <div class="bg-[#A18A4D] absolute right-0 sm:top-1/2 text-white size-10 center top-1/4 size-14">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sm:size-6 size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                  </svg>
+                </svg>
 
             </div>
 
         </main>
 
-        <div class="h-[130vh] w-full">
+        <div class=" w-full">
           <div class="center container flex justify-between gap-8 flex-col" >
 
-            <div>
+            <div class="px-4">
               <p class="text-[#A18A4D] text-6xl xl:text-5xl font-light text-accent mt-24">Study</p>
-              <div class="flex gap-20 mt-8 xl:mt-12 border-b-[0.1px] text-gray-800 border-gray-300 pb-10 justify-between" >
-                <div class="w-1/3">
-                  <h2 class="font-bold text-2xl">Your future is here!</h2>
+              <div class="flex flex-col sm:flex-row sm:gap-20 gap-4 mt-8 xl:mt-12 border-b-[0.1px] text-gray-800 border-gray-300 pb-12 sm:pb-10 justify-between" >
+                <div class="sm:w-1/3 w-full">
+                  <h2 class="font-bold sm:text-2xl text-4xl">Your future is here!</h2>
                 </div>
-                <div class="w-2/3">
-                  <p class="col-span-2 text-lg font-light mt-6 xl:mt-0">
+                <div class="sm:w-2/3 w-full">
+                  <p class="sm:text-lg text-2xl font-light sm:mt-6  xl:mt-0">
                     Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the
                     U.Porto offer unique conditions to those who want to build an academic path of excellence and
                     properly valued by the labour market.
@@ -142,28 +142,28 @@
                 </div>
               </div>
             </div>
-            <div class="flex gap-8 flex-col w-full justify-between">
+            <div class="flex gap-8 flex-col w-full justify-between  px-3 pt-4 pb-8">
               <div>
-                <p class="font-bold pt-15 text-2xl mt-12">Which course are you looking for?</p>
+                <p class="font-bold pt-15 sm:text-2xl text-4xl mt-12">Which course are you looking for?</p>
               </div>
-              <div class="flex gap-8">
+              <div class="flex sm:flex-row flex-col gap-8">
 
-                <div class=" flex flex-col gap-4 w-2/3">
+                <div class=" flex flex-col gap-4 sm:w-2/3 w-full">
                   <!-- <label for="dropdown">All</label> -->
-                  <select id="dropdown" name="options" class="border-2 border-[#A18A4D] p-3">
+                  <select id="dropdown" name="options" class="border-2 border-[#A18A4D] sm:p-3 p-6">
                     <option value="option1" class="text-bold text-4XL">All</option>
                     <option value="option1">Bachelor's and Intergrated Master's Degrees</option>
                     <option value="option2">Master's Degrees</option>
                     <option value="option3">Doctorates</option>
                   </select>
-                  <input placeholder="Please enter course keywords..." class="border-2 border-[#A18A4D] p-3 text-gray-500">
+                  <input placeholder="Please enter course keywords..." class="border-2 border-[#A18A4D] sm:p-3 text-gray-500 p-6">
                   </input>
 
-                  <button class="border-2 border-[#A18A4D] p-3 bg-[#A18A4D] text-white font-bold text-2xl hover:bg-white hover:text-[#A18A4D]">Search</button>
+                  <button class="border-2 border-[#A18A4D] sm:p-3 bg-[#A18A4D] text-white font-bold text-2xl hover:bg-white hover:text-[#A18A4D] p-6">Search</button>
 
                 </div>
-                <div class="w-1/3">
-                  <p class="text-2xl font-bold">Courses from A to Z:</p>
+                <div class="w-full mb-8 sm:mb-0 sm:w-1/3">
+                  <p class="text-2xl font-medium">Courses from A to Z:</p>
                   <div class="flex flex-col">
                     <a href="#" class="underline text-2xl hover:text-[#A18A4D] font-light">Bachelor's and Intergrated Master's Degrees</a>
                     <a href="#" class="underline  text-2xl hover:text-[#A18A4D] font-light">Master's Degrees</a>
@@ -174,9 +174,9 @@
             </div>
           </div>
         </div>
-        <div class="h-[130vh] w-full bg-gray-200">
-          <div class="center container flex justify-between gap-8 flex-col" >
-            <div class="flex gap-8 w-full justify-between bg-red items-baseline mt-24">
+        <div class="w-full bg-gray-200">
+          <div class="center container flex justify-between gap-8 flex-col " >
+            <div class="flex flex-col sm:flex-row gap-8 w-full justify-between bg-red items-baseline sm:mt-24 mt-10 mb-10">
               <p class ='text-6xl text-[#A18A4D] font-light'>News</p>
               <div class="flex gap-4">
                 <p class="text-[#A18A4D] font-bold">All news</p>
@@ -186,7 +186,7 @@
               </div>
 
             </div>
-            <div class="flex gap-8">
+            <div class="w-[94%] flex flex-col sm:flex-row gap-8">
               <div class="flex flex-col gap-8 bg-gray-100 p-4 ">
                 <p class="text-[#A18A4D]">Ciencia e Inovacao | Merito</p>
                 <p class="text-2xl font-bold text-gray-600 mb-16">U.Porto domina bolsas de investigacao da Liga Portuguesa Contra o Cancro</p>
@@ -206,7 +206,7 @@
                 <img src="./img3.jpg" alt="">
               </div>
             </div>
-            <div class="flex gap-2 justify-start items-center">
+            <div class="w- flex gap-2 justify-start items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10 rounded-half text-white p-1 bg-gray-500">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
               </svg>
@@ -217,6 +217,49 @@
 
           </div>
         </div>
+        <!-- <div class="w-full py-24 pb-32">
+          <div class="center container flex items-center justify-between gap-8  " >
+            <div class="w-1/3 relative">
+              <p class="text-5xl font-light text-[#A18A4D] text-nowrap -mt-12">We are a University</p>
+              <p class="text-5xl font-light text-[#A18A4D]">of Excellence!</p>
+              <img src="./minerva_01.png" class="h-[24rem] absolute right-0 -top-10" alt="">
+            </div>
+            <div class="w-2/3 flex flex-col gap-8">
+              <p class="text-xl text-gray-500" >
+                With over 100 years of history, the University of Porto is a <span class="text-gray-900">
+                    leading teaching and scientific
+                    research institution in Portugal and worldwide.
+                </span>
+              </p>
+              <p class="text-xl text-gray-500">
+                Considered <span class="text-gray-900">
+                    the best Portuguese University and one of the best 100 European institutions
+                </span> according to
+                the most important Higher Education rankings, U.Porto combines quality teaching and excellent
+                research with the best academic experience.
+              </p>
+              <p class="text-gray-900 text-lg">We are waiting for you!</p>
+              <div class="flex gap-4">
+                <p class="text-[#A18A4D] font-bold">See more</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 border-2 border-[#A18A4D] rounded-full p-1 bg-[#A18A4D] text-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="w-full h-[3px] bg-gray-200 my-8"></div> -->
+        <!-- <div>
+          <div>
+            <div>
+              <p>Research</p>
+              <p>Research University</p>
+              <p>With 48 research units and a highly qualified scientific community, the University of Porto is one of the largest producers of science in Portugal, contributing to almost 25% of all national scientific output.</p>
+              <p>The excellence of our scientific ecosystem is particularly evident in the leading position the University occupies in the main international rankings of Higher Education.</p>
+            </div>
+            <div></div>
+          </div>
+        </div> -->
     </div>
 
   </body>
